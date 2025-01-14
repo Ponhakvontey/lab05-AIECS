@@ -2,6 +2,7 @@
 /* Name: subject.java
 Date: 14 January 2025
 Author: Dim Ponhakvontey
+Collarborators: Neth Barom Phaknit
 Modified: 14 January 2025
 Description: Lab 05
 Functions:
