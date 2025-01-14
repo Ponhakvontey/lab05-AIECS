@@ -5,15 +5,17 @@ Author: Dim Ponhakvontey
 Modified: 14 January 2025
 Description: Lab 05
 Functions:
- -getPrice(): Double
- -getProgram(): String
- -getName(): String
- -getCredits(): int
+ - Subject(String name, int credits): Constructor to initialize a subject.
+ - getPrice(): Returns the price of the subject.
+ - getProgram(): Returns the program name.
+ - getName(): Returns the name of the subject.
+ - getCredits(): Returns the number of credits of the subject.
+ - setName(String name): Updates the name of the subject with validation.
  Variables:
- -price: Double
- -PROGRAM: String
- -name: String
- -credits: int */
+ - price: The price of the subject (static constant).
+ - PROGRAM: The name of the program (static constant).
+ - name: The name of the subject.
+ - credits: The number of credits for the subject. */
 package week5.lab05;
 public class subject {
 
@@ -62,7 +64,6 @@ public class subject {
         System.out.println("Program: " + subject.getProgram());
         System.out.println("Price: " + subject.getPrice());
         
-
     }
 
 }
